@@ -6,8 +6,12 @@ const Home = () => {
       <div className="hero-body">
         <div className="container">
           <h1 className="title">
-            Brad(ley) Sayers RESTful Portfolio
+            Brad(ley) Sayers;
           </h1>
+          <h1 className="title">
+            RESTful Portfolio
+          </h1>
+          <hr />
           <h2 className="subtitle">
             Work in progress...
           </h2>
