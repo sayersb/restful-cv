@@ -10,7 +10,7 @@ import ProjectsNew from './components/projects/New';
 import ProjectsEdit from './components/projects/Edit';
 import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
-import ProtectedRoute from './components/common/ProtectedRoute';
+// import ProtectedRoute from './components/common/ProtectedRoute';
 import Navbar from './components/common/Navbar';
 import FlashMessages from './components/common/FlashMessages';
 
@@ -32,9 +32,9 @@ class App extends React.Component {
           <section className="section">
             <div className="container">
               <Switch>
-                <ProtectedRoute path="/projects/new" component={ProjectsNew} />
-                <ProtectedRoute path="/projects/:id/edit" component={ProjectsEdit} />
-                <Route path="/projects/:id" component={ProjectsShow} />
+                {/* <ProtectedRoute path="/projects/new" component={ProjectsNew} />
+                <ProtectedRoute path="/projects/:id/edit" component={ProjectsEdit} /> */}
+                {/* <Route path="/projects/:id" component={ProjectsShow} /> */}
                 <Route path="/projects" component={ProjectsIndex} />
                 <Route path="/login" component={AuthLogin} />
                 <Route path="/register" component={AuthRegister} />
