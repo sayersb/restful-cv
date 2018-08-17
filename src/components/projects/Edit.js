@@ -36,7 +36,6 @@ class ProjectsEdit extends React.Component {
       );
     }
 
-
 }
 
 export default ProjectsEdit;
