@@ -2,14 +2,14 @@ const Project = require('../models/project');
 
 function indexRoute(req, res, next) {
   Project.find()
-    .populate('technologies')
+    // .populate('technologies')
     .then(projects => res.json(projects))
     .catch(next);
 }
 
 function showRoute(req, res, next) {
   Project.findById(req.params.id)
-    .populate('technologies')
+    // .populate('technologies')
     .then(project => res.json(project))
     .catch(next);
 }
