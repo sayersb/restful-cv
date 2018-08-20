@@ -1,5 +1,3 @@
-// need name and type as options, also technologies used .. image .. date/time spent??
-
 const mongoose = require('mongoose');
 const moment = require('moment');
 
