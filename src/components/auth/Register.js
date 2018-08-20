@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class AuthRegister extends React.Component {
 
-  state = {};
+  state = {}
 
   handleSubmit = (e) => {
     e.preventDefault();
@@ -28,15 +28,15 @@ class AuthRegister extends React.Component {
         </div>
         <div className="field">
           <label className="email">Email</label>
-          <input className="input" name="email" placeholder="Email" onChange={this.handleChange}/>
+          <input className="input" name="email" placeholder="Email" autoComplete="username" onChange={this.handleChange}/>
         </div>
         <div className="field">
           <label className="password">Password</label>
-          <input className="input" type="password" name="password" placeholder="Password" onChange={this.handleChange}/>
+          <input className="input" type="password" name="password" placeholder="Password" autoComplete="current-password" onChange={this.handleChange}/>
         </div>
         <div className="field">
           <label className="passwordConfirmation">Password Confirmation</label>
-          <input className="input" type="password" name="passwordConfirmation" placeholder="Password Confirmation" onChange={this.handleChange}/>
+          <input className="input" type="password" name="passwordConfirmation" placeholder="Password Confirmation" autoComplete="new-password" onChange={this.handleChange}/>
         </div>
         <button className="button">Submit</button>
       </form>

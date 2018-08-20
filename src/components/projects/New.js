@@ -3,12 +3,16 @@ import axios from 'axios';
 import ProjectsForm from './Form';
 import Auth from '../../lib/Auth';
 
-class NewProjects extends React.Component {
+class ProjectsNew extends React.Component {
+
+  state = {
+    errors: {}
+  };
 
   componentDidMount () {
     axios({
       url: '/api/projects',
-      method: 'POST'
+      method: 'GET'
     })
       .then(res => {
         console.log(res.data);
@@ -40,10 +44,12 @@ class NewProjects extends React.Component {
     return (
       <ProjectsForm
         handleChange={this.handleChange}
-        handleSubmit={this.handleSubmit} />
+        handleSubmit={this.handleSubmit}
+        data={this.state}
+      />
     );
   }
 
 }
 
-export default NewProjects;
+export default ProjectsNew;

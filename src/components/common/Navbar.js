@@ -12,11 +12,11 @@ class Navbar extends React.Component {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
 
-  componentDidUpdate(prevProps) {
-    if(prevProps.location.pathname !== this.props.location.pathname) {
-      this.setState({ navbarOpen: false });
-    }
-  }
+  // componentDidUpdate(prevProps) {
+  //   if(prevProps.location.pathname !== this.props.location.pathname) {
+  //     this.setState({ navbarOpen: false });
+  //   }
+  // }
 
   logout = () => {
     Auth.logout();
@@ -46,10 +46,10 @@ class Navbar extends React.Component {
         <div className={`navbar-menu${this.state.navbarOpen ? 'is-active' : ''}`}>
           <div className="navbar-end">
             <Link to="/projects" className="navbar-item">All my projects</Link>
-            {Auth.isAuthenticated() && <Link to="/projects/new" className="navbar-item"> New Project</Link>}
+            <Link to="/projects/new" className="navbar-item">New Project</Link>
             {Auth.isAuthenticated() && <a onClick={this.logout} className="navbar-item">Logout</a>}
-            {!Auth.isAuthenticated() && <Link to="login" className="navbar-item">Login</Link>}
-            {!Auth.isAuthenticated() && <Link to="register" className="navbar-item">Register</Link>}
+            {!Auth.isAuthenticated() && <Link to="/login" className="navbar-item">Login</Link>}
+            {!Auth.isAuthenticated() && <Link to="/register" className="navbar-item">Register</Link>}
           </div>
         </div>
       </nav>

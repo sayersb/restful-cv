@@ -15,7 +15,7 @@ import Navbar from './components/common/Navbar';
 import FlashMessages from './components/common/FlashMessages';
 
 import 'bulma';
-// import 'react-select';
+import 'react-select';
 import './scss/style.scss';
 // import 'react-select/dist/react-select.css';
 
@@ -32,9 +32,9 @@ class App extends React.Component {
           <section className="section">
             <div className="container">
               <Switch>
-                {/* <ProtectedRoute path="/projects/new" component={ProjectsNew} />
-                <ProtectedRoute path="/projects/:id/edit" component={ProjectsEdit} /> */}
-                {/* <Route path="/projects/:id" component={ProjectsShow} /> */}
+                <Route path="/projects/new" component={ProjectsNew} />
+                <Route path="/projects/:id/edit" component={ProjectsEdit} />
+                <Route path="/projects/:id" component={ProjectsShow} />
                 <Route path="/projects" component={ProjectsIndex} />
                 <Route path="/login" component={AuthLogin} />
                 <Route path="/register" component={AuthRegister} />
