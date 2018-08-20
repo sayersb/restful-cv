@@ -38,7 +38,8 @@ class NewProjects extends React.Component {
   render() {
     console.log(this.props);
     return (
-      <ProjectsForm handleSelectChange={this.handleSelectChange}
+      <ProjectsForm
+        handleChange={this.handleChange}
         handleSubmit={this.handleSubmit} />
     );
   }
