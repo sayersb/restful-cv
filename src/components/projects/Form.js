@@ -1,7 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
 
-const ProjectsForm = ({ handleChange, handleSubmit, data }) => {
+const ProjectsForm = ({ handleSelectChange, handleChange, handleSubmit, data }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="field">
@@ -14,7 +14,7 @@ const ProjectsForm = ({ handleChange, handleSubmit, data }) => {
         <div className="control">
           <div className="select is-fullwidth">
             <select name="type" onChange={handleChange} value={data.type || ''}>
-              <option value="" disabled>Please Choose</option>
+              <option value="" >Please Choose</option>
               <option>Web App</option>
               <option>Web page</option>
               <option>Website</option>
@@ -54,8 +54,8 @@ const ProjectsForm = ({ handleChange, handleSubmit, data }) => {
         <Select
           multi
           name="technologies"
-          value={data.technologies}
-          onChange={handleChange}
+          value={data.selectedOptions}
+          onChange={handleSelectChange}
           options={data.options}
         />
       </div>

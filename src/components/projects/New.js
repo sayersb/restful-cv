@@ -6,6 +6,7 @@ import Auth from '../../lib/Auth';
 class ProjectsNew extends React.Component {
 
   state = {
+    // selectedOptions: [],
     errors: {}
   };
 
@@ -17,7 +18,7 @@ class ProjectsNew extends React.Component {
       .then(res => {
         console.log(res.data);
         const options = res.data.map(project => {
-          return { value: project._id, label: project.name };
+          return { value: project._id, label: project.technologies };
         });
         this.setState({ options });
       });
@@ -26,6 +27,11 @@ class ProjectsNew extends React.Component {
   handleChange = ({ target: { name, value }}) => {
     this.setState({ [name]: value });
   }
+
+  // handleSelectChange = selectedOptions => {
+  //   const technologies = selectedOptions.map(option => option.value);
+  //   this.setState({ selectedOptions, technologies }, () => console.log(this.state));
+  // }
 
   handleSubmit = (e) => {
     e.preventDefault;
@@ -39,10 +45,12 @@ class ProjectsNew extends React.Component {
       .catch(err => this.setState({ errors: err.response.data.errors }));
   }
 
+
   render() {
     console.log(this.props);
     return (
       <ProjectsForm
+        // handleSelectChange={this.handleSelectChange}
         handleChange={this.handleChange}
         handleSubmit={this.handleSubmit}
         data={this.state}
