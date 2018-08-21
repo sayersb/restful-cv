@@ -3,7 +3,7 @@ import Flash from '../../lib/Flash';
 
 const FlashMessages = () => {
   const messages = Flash.getMessages();
-  Flash.clearMessages;
+  Flash.clearMessages();
 
   return(
     <div className="container">

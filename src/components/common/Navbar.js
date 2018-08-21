@@ -12,11 +12,11 @@ class Navbar extends React.Component {
     this.setState({ navbarOpen: !this.state.navbarOpen });
   }
 
-  // componentDidUpdate(prevProps) {
-  //   if(prevProps.location.pathname !== this.props.location.pathname) {
-  //     this.setState({ navbarOpen: false });
-  //   }
-  // }
+  componentDidUpdate(prevProps) {
+    if(prevProps.location.pathname !== this.props.location.pathname) {
+      this.setState({ navbarOpen: false });
+    }
+  }
 
   logout = () => {
     Auth.logout();
