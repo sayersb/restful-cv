@@ -28,7 +28,7 @@ class Navbar extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item">
-            <img src="https://maxcdn.icons8.com/app/uploads/2016/09/sweet-home-icon.jpg" height="50" />
+            <img src="https://vignette.wikia.nocookie.net/mycun-the-movie/images/4/4e/The_Simpsons_House_in_MYCUN_The_Movie.png/revision/latest?cb=20150926054636" alt="Home" width="100" height="60" />
           </Link>
 
           <a role="button"

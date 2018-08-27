@@ -5,8 +5,8 @@ const About = () => {
     <section className="hero is-medium is-dark is-bold">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">
-            About Me
+          <h1 className="title has-text-centered">
+            🤓 About Me 🤓
           </h1>
           <hr />
           <h2 className="subtitle">
