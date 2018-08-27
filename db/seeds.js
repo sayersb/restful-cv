@@ -42,7 +42,7 @@ mongoose.connect(dbURI, (err, db) => {
       type: 'Web App',
       startDate: '2018-07-08',
       status: 'Complete',
-      technologies: ['HTML5, ', 'CSS3, ', 'JavaScript, ', 'Node.js, ', 'Express, ', 'Yarn, ', 'bcrypt, ', 'body-parser, ', 'EJS, ', 'Token Authentication, ', 'method-override, ', 'MongoDB, ', 'Mongoose, ', 'Morgan, ', 'Bulma'],
+      technologies: ['React, ', 'SCSS, ', 'JavaScript(ECMAScript6), ', 'Node.js, ', 'Express, ', 'Yarn, ', 'bcrypt, ', 'body-parser, ', 'axios, ', 'Token Authentication, ', 'Chai, ', 'MongoDB, ', 'Mongoose, ', 'bluebird, ', 'Bulma, Mocha, Babel, Request-Promise, Sinon, lodash, enzyme, Webpack,  draw.io, Trello, Slack,  Paypal API, Google Maps API with Autocomplete, Eventbrite API, MailChimp Subscription API, Ticketmaster API'],
       image: 'https://media.giphy.com/media/2t9y7rGuAP02hSxtPt/giphy.gif',
       description: 'Initial group project, so was the first time dealing with merge conflicts using GitHub. The first project utilising AngularJS, to create a web app showing hidden gems in London. We implemented authentication, Google Maps, outside API’s, commenting and reviewing on top of the tech used in the previous projects. This was the first time utilising the filePicker API to upload images from a users computer or social media accounts',
       projectRepo: 'https://github.com/sayersb/WDI-PROJECT-4 https://abc-events.herokuapp.com',
