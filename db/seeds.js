@@ -20,10 +20,20 @@ mongoose.connect(dbURI, (err, db) => {
     }, {
       name: 'World Cup Predictor',
       type: 'Web App',
-      startDate: '2018-05-22',
+      startDate: '2018-05-28',
       status: 'Complete',
-      technologies: ['HTML5, ', 'CSS3, ', 'JavaScript, ', 'Node.js, ', 'Express, ', 'Yarn, ', 'bcrypt, ', 'body-parser, ', 'EJS, ', 'Session Authentication, ', 'method-override, ', 'MongoDB, ', 'Mongoose, ', 'Morgan '],
-      image: 'https://github.com/sayersb/project-1-wdi/raw/master/images/chain1.gif',
+      technologies: ['HTML5, ', 'CSS3, ', 'JavaScript, ', 'Node.js, ', 'Express, ', 'Yarn, ', 'bcrypt, ', 'body-parser, ', 'EJS, ', 'Session Authentication, ', 'method-override, ', 'MongoDB, ', 'Mongoose, ', 'Morgan, ', 'Bulma'],
+      image: 'https://media.giphy.com/media/pzmkgqorR7eCjac8lg/giphy.gif',
+      description: 'One week to create an Express, RESTful app setting out information on teams & players leading to predictions. Included Express, MongoDB and EJS in addition to the previous technologies utilised.',
+      projectRepo: 'https://github.com/sayersb/project-1-wdi   https://worldcuppredictor.herokuapp.com',
+      team: 'Solo Project'
+    }, {
+      name: 'Hidden Gems',
+      type: 'Web App',
+      startDate: '2018-06-19',
+      status: 'Complete',
+      technologies: ['HTML5, ', 'CSS3, ', 'JavaScript, ', 'Node.js, ', 'Express, ', 'Yarn, ', 'bcrypt, ', 'body-parser, ', 'EJS, ', 'Token Authentication, ', 'method-override, ', 'MongoDB, ', 'Mongoose, ', 'Morgan, ', 'Bulma'],
+      image: 'https://media.giphy.com/media/2t9y7rGuAP02hSxtPt/giphy.gif',
       description: 'One week to create an Express, RESTful app setting out information on teams & players leading to predictions. Included Express, MongoDB and EJS in addition to the previous technologies utilised.',
       projectRepo: 'https://github.com/sayersb/project-1-wdi   https://worldcuppredictor.herokuapp.com',
       team: 'Solo Project'
