@@ -22,6 +22,7 @@ module.exports = {
     filename: 'app.js',
     publicPath: '/'
   },
+  watchOptions: { poll: true },
   module: {
     loaders: [
       { test: /\.jsx?$/, loader: 'babel-loader', exclude: /node_modules/ },
