@@ -1,3 +1,29 @@
 body {
   background-color: darkGrey;
 }
+
+
+.card {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  border-style: none;
+  background-color: peachpuff;
+  .image {
+    display: flex;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.navbar {
+  background-color: peachpuff;
+}
+
+.navbar-item {
+  color: #4a4e4d;
+  padding: 5px 20px;
+  // font-size: 20px;
+}

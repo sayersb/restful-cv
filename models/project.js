@@ -11,7 +11,8 @@ const projectSchema = new mongoose.Schema({
   image: { type: String },
   description: { type: String },
   projectRepo: { type: String },
-  team: { type: String, enum: ['Solo Project', 'Collaborative Project']}
+  team: { type: String, enum: ['Solo Project', 'Collaborative Project']},
+  deployed: { type: String }
 });
 
 projectSchema.path('startDate')
