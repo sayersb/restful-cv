@@ -5,6 +5,12 @@ const Contact = () => {
     <section className="hero has-text-centered has-text-dark is-danger">
       <div className="hero-body">
         <div className="container">
+          <h1 className="title">
+            Contact Me
+          </h1>
+        </div>
+        <hr />
+        <div className="container">
           <h2 className="subtitle">
             <strong>    <a href="mailto:bradleysayers1@gmail.com">✉️  bradleysayers1@gmail.com  ✉️</a>
             </strong>
