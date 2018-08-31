@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Contact from './components/pages/Contact';
 import NotFound from './components/pages/NotFound';
 import ProjectsIndex from './components/projects/Index';
 import ProjectsShow from './components/projects/Show';
@@ -39,8 +40,12 @@ class App extends React.Component {
                 <Route path="/login" component={AuthLogin} />
                 <Route path="/register" component={AuthRegister} />
                 <Route exact path="/" component={About} />
+
                 <Route component={NotFound} />
               </Switch>
+            </div>
+            <div className="container">
+              <Route exact path="/" component={Contact} />
             </div>
           </section>
         </main>

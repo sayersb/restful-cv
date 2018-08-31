@@ -9,11 +9,14 @@ const Home = () => {
             Brad(ley) Sayers;
           </h1>
           <h1 className="title has-text-centered">
-            RESTful Portfolio
+          Web Developer
           </h1>
           <hr />
-          <h2 className="subtitle has-text-centered has-text-danger">
-            Work in progress...
+          <h2 className="subtitle has-text-centered has-text-warning">
+            <strong>  MERN Stack Portfolio </strong>
+          </h2>
+          <h2 className="subtitle has-text-centered has-text-warning">
+            <strong> Work in progress... </strong>
           </h2>
         </div>
       </div>

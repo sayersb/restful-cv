@@ -28,7 +28,7 @@ class Navbar extends React.Component {
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item">
-            <img src="https://vignette.wikia.nocookie.net/mycun-the-movie/images/4/4e/The_Simpsons_House_in_MYCUN_The_Movie.png/revision/latest?cb=20150926054636" alt="Home" width="100" height="60" />
+            <img src="https://cdn.iconscout.com/public/images/icon/premium/png-256/home-keyboard-button-key-3ce62a4bf5f963eb-256x256.png" alt="Home" width="50" height="75"/>
           </Link>
 
           <a role="button"
@@ -45,8 +45,8 @@ class Navbar extends React.Component {
 
         <div className={`navbar-menu${this.state.navbarOpen ? 'is-active' : ''}`}>
           <div className="navbar-end">
-            <Link to="/projects" className="navbar-item">All my projects</Link>
-            <Link to="/projects/new" className="navbar-item">New Project</Link>
+            <Link to="/projects" className="navbar-item">My projects</Link>
+            {/* <Link to="/projects/new" className="navbar-item">New Project</Link> */}
             {Auth.isAuthenticated() && <a onClick={this.logout} className="navbar-item">Logout</a>}
             {!Auth.isAuthenticated() && <Link to="/login" className="navbar-item">Login</Link>}
             {!Auth.isAuthenticated() && <Link to="/register" className="navbar-item">Register</Link>}

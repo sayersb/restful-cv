@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Auth from '../../lib/Auth';
 
 class ProjectsShow extends React.Component {
@@ -48,8 +48,8 @@ class ProjectsShow extends React.Component {
           <h2 className="subtitle">Deployed at : {this.state.project.deployed}</h2>
           <hr />
 
-          <Link className="button" to={`/projects/${this.state.project._id}/edit`}>Edit</Link>
-          <button className="button is-danger" onClick={this.handleDelete}>Delete</button>
+          {/* <Link className="button" to={`/projects/${this.state.project._id}/edit`}>Edit</Link>
+          <button className="button is-danger" onClick={this.handleDelete}>Delete</button> */}
 
         </div>
       </div>
