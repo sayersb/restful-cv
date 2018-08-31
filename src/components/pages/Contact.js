@@ -40,10 +40,7 @@ const Contact = () => {
             <strong>     <a href="https://git.generalassemb.ly/bradSayers">  General Assembly Work Repositories : https://git.generalassemb.ly/bradSayers</a> </strong>
           </h2>
         </div>
-
-
       </div>
-
     </section>
   );
 };

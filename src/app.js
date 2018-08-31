@@ -13,6 +13,7 @@ import AuthLogin from './components/auth/Login';
 import AuthRegister from './components/auth/Register';
 import ProtectedRoute from './components/common/ProtectedRoute';
 import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
 import FlashMessages from './components/common/FlashMessages';
 
 import 'bulma';
@@ -48,6 +49,7 @@ class App extends React.Component {
               <Route exact path="/" component={Contact} />
             </div>
           </section>
+          <Footer />
         </main>
       </BrowserRouter>
     );

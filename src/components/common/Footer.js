@@ -3,9 +3,12 @@ import React from 'react';
 class Footer extends React.Component {
   render() {
     return (
-      <footer className="footer">
-        <div className="content has-text-centered">
-          <p className="footer-info">Check me out across the web...</p>
+      <footer className="footer has-background-black-ter">
+        <div className="content has-text-centered has-text-white">
+          <p className="footer-info">
+            ❤️ Designed and Coded by <a className="me" href="mailto:bradleysayers1@gmail.com"> Brad(ley) Sayers ❤️
+            </a>
+          </p>
 
         </div>
       </footer>
