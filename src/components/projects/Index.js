@@ -77,8 +77,8 @@ class ProjectsIndex extends React.Component {
                     </div>
                     <div className="card-content">
                       <div className="content">
-                        <h2 className="title">{project.name}</h2>
-                        <h5 className="subtitle">Type: {project.type}</h5>
+                        <h2 className="title has-text-white">{project.name}</h2>
+                        <h5 className="subtitle has-text-white">Type: {project.type}</h5>
                       </div>
                     </div>
                   </div>
