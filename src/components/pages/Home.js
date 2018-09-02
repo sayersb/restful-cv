@@ -15,6 +15,7 @@ const Home = () => {
           <h2 className="title has-text-danger has-text-centered">
               MERN Stack Portfolio
           </h2>
+          <hr />
           {/* <h2 className="title has-text-danger has-text-centered">
           Work in progress...
           </h2> */}

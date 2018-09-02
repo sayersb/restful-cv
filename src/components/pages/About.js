@@ -5,6 +5,7 @@ const About = () => {
     <section className="hero is-medium has-background-grey-light">
       <div className="hero-body">
         <div className="container">
+          <hr />
           <h1 className="title has-text-centered">
             🤓 About Me 🤓
           </h1>
@@ -30,6 +31,26 @@ Whilst sorting the properties, I enrolled in numerous online web development cou
 which included freeCodeCamp, Codeacademy and unity. I then enrolled at General
 Assembly as it seemed the perfect course and environment to start my journey
 as a Web Developer. I would love to continue my learning development in my next role.
+          </h2>
+        </div>
+        <div className="container">
+          <hr />
+          <h1 className="title has-text-centered">
+            Skills
+          </h1>
+          <hr />
+          <h2 className="subtitle">
+            <strong>Some technologies implemented in projects so far :</strong>&nbsp;&nbsp; <a href="https://trello.com/"><i className="fab fa-trello fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://developer.paypal.com/docs/api/overview/"><i className="fab fa-cc-paypal fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://mailchimp.com/"><i className="fab fa-mailchimp fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://angular.io/"><i className="fab fa-angular fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://nodejs.org/en/"><i className="fab fa-node-js fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://reactjs.org/"><i className="fab fa-react fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"><i className="fab fa-css3-alt fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://sass-lang.com/"><i className="fab fa-sass fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://en.wikipedia.org/wiki/HTML5"><i className="fab fa-html5 fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://github.com/"><i className="fab fa-github fa-2x"></i>&nbsp;&nbsp;</a>
+            <a href="https://vuejs.org/"><i className="fab fa-vuejs fa-2x"></i></a>
           </h2>
         </div>
       </div>
