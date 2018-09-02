@@ -19,7 +19,7 @@ const Contact = () => {
         <hr />
         <div className="container">
           <h2 className="subtitle">
-            <strong>  LinkedIn : <a href="https://linkedin.com/in/bradley-sayers">https://linkedin.com/in/bradley-sayers</a>
+            <strong> <a href="https://linkedin.com/in/bradley-sayers"><i className="fab fa-linkedin"></i>&nbsp; https://linkedin.com/in/bradley-sayers &nbsp;<i className="fab fa-linkedin"></i></a>
             </strong>
           </h2>
         </div>
