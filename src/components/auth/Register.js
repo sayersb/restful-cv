@@ -22,23 +22,27 @@ class AuthRegister extends React.Component {
   render() {
     return(
       <form onSubmit={this.handleSubmit}>
-        <div className="field">
-          <label className="username">Username</label>
-          <input className="input" name="username" placeholder="Username" onChange={this.handleChange}/>
-        </div>
-        <div className="field">
-          <label className="email">Email</label>
-          <input className="input" name="email" placeholder="Email" autoComplete="username" onChange={this.handleChange}/>
-        </div>
-        <div className="field">
-          <label className="password">Password</label>
-          <input className="input" type="password" name="password" placeholder="Password" autoComplete="current-password" onChange={this.handleChange}/>
-        </div>
-        <div className="field">
-          <label className="passwordConfirmation">Password Confirmation</label>
-          <input className="input" type="password" name="passwordConfirmation" placeholder="Password Confirmation" autoComplete="new-password" onChange={this.handleChange}/>
-        </div>
-        <button className="button is-danger is-inverted is-outlined">Submit</button>
+        <section className="hero has-text-centered has-text-dark is-danger">
+          <div className="hero-body">
+            <div className="field">
+              <label className="username">Username</label>
+              <input className="input" name="username" placeholder="Username" onChange={this.handleChange}/>
+            </div>
+            <div className="field">
+              <label className="email">Email</label>
+              <input className="input" name="email" placeholder="Email" autoComplete="username" onChange={this.handleChange}/>
+            </div>
+            <div className="field">
+              <label className="password">Password</label>
+              <input className="input" type="password" name="password" placeholder="Password" autoComplete="current-password" onChange={this.handleChange}/>
+            </div>
+            <div className="field">
+              <label className="passwordConfirmation">Password Confirmation</label>
+              <input className="input" type="password" name="passwordConfirmation" placeholder="Password Confirmation" autoComplete="new-password" onChange={this.handleChange}/>
+            </div>
+            <button className="button is-danger is-inverted is-outlined">Submit</button>
+          </div>
+        </section>
       </form>
     );
   }
