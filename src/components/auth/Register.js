@@ -38,7 +38,7 @@ class AuthRegister extends React.Component {
           <label className="passwordConfirmation">Password Confirmation</label>
           <input className="input" type="password" name="passwordConfirmation" placeholder="Password Confirmation" autoComplete="new-password" onChange={this.handleChange}/>
         </div>
-        <button className="button">Submit</button>
+        <button className="button is-danger is-inverted is-outlined">Submit</button>
       </form>
     );
   }

@@ -42,7 +42,7 @@ class AuthLogin extends React.Component {
           <input className="input" type="password" name="password" placeholder="Password" autoComplete="current-password" onChange={this.handleChange} />
         </div>
 
-        <button className="button">Submit</button>
+        <button className="button is-danger is-inverted is-outlined">Submit</button>
 
       </form>
     );
