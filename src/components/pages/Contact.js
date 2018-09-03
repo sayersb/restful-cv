@@ -4,15 +4,19 @@ const Contact = () => {
   return (
     <section className="hero has-text-centered has-text-dark is-danger">
       <div className="hero-body">
+        <figure className="image is-128x128">
+          <img className="is-rounded" src="https://media.licdn.com/dms/image/C5603AQH4uja8LkrWyg/profile-displayphoto-shrink_200_200/0?e=1541635200&v=beta&t=4HhxLpCsRwrZJefnHLp9KyGHPa1BTYSblKUZ6g6bYuw"  />
+        </figure>
+        <hr />
         <div className="container">
           <h1 className="title">
-            Contact Me
+            Contact
           </h1>
         </div>
         <hr />
         <div className="container">
           <h2 className="subtitle">
-            <strong>    <a href="mailto:bradleysayers1@gmail.com">✉️  bradleysayers1@gmail.com  ✉️</a>
+            <strong>    <a href="mailto:bradleysayers1@gmail.com">✉️ &nbsp; &nbsp; bradleysayers1@gmail.com &nbsp; &nbsp; ✉️</a>
             </strong>
           </h2>
         </div>

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <section className="hero is-large has-background-black-ter is-bold">
+    <section className="hero is-medium has-background-black-ter is-bold">
       <div className="hero-body has-text-white">
         <div className="container">
           <h1 className="title has-text-centered has-text-white">
-            Brad(ley) Sayers;
+                    Brad(ley) Sayers;
           </h1>
           <h1 className="title has-text-centered has-text-white">
           Web Developer
