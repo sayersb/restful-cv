@@ -26,7 +26,7 @@ class ProjectsShow extends React.Component {
     return(
       <div className="columns">
         <div className="column is-half">
-          <h2 className="title">{this.state.project.name}</h2>
+          <h2 className="title has-text-centered">{this.state.project.name}</h2>
           <hr />
           <figure className="image">
             <img src={this.state.project.image} />
@@ -41,11 +41,11 @@ class ProjectsShow extends React.Component {
 
           <hr />
           <h2 className="subtitle"><strong>Status : </strong>{this.state.project.status}</h2>
-          <h2 className="subtitle">{this.state.project.team}</h2>
+          <h2 className="subtitle"><strong>{this.state.project.team}</strong></h2>
           <hr />
-          <h2 className="subtitle">Project Repository Link : {this.state.project.projectRepo}</h2>
+          <h2 className="subtitle"><strong>Project Repository Link :</strong> <a href={this.state.project.projectRepo}>{this.state.project.projectRepo} </a></h2>
           <hr />
-          <h2 className="subtitle">Deployed at : {this.state.project.deployed}</h2>
+          <h2 className="subtitle"><strong>Deployed at : </strong> <a href={this.state.project.deployed}>{this.state.project.deployed} </a></h2>
           <hr />
 
           {/* <Link className="button" to={`/projects/${this.state.project._id}/edit`}>Edit</Link>

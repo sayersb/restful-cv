@@ -6,7 +6,7 @@ const Home = () => {
       <div className="hero-body has-text-white">
         <div className="container">
           <h1 className="title has-text-centered has-text-white">
-                    Brad(ley) Sayers;
+            <strong>     BRAD(LEY) SAYERS ; </strong>
           </h1>
           <h1 className="title has-text-centered has-text-white">
           Web Developer
