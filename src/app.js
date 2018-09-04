@@ -27,7 +27,7 @@ class App extends React.Component {
     console.log('These are my components, new, edit, show, index', ProjectsNew, ProjectsEdit, ProjectsShow, ProjectsIndex);
     return (
       <BrowserRouter>
-        <main>
+        <main className="has-navbar-fixed-top">
           <Navbar />
           <FlashMessages />
           <Route exact path="/" component={Home} />

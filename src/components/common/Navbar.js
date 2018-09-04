@@ -25,7 +25,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item">
             <img src="https://cdn.iconscout.com/public/images/icon/premium/png-256/home-keyboard-button-key-3ce62a4bf5f963eb-256x256.png" alt="Home" width="50" height="75"/>

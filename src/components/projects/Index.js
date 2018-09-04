@@ -47,6 +47,7 @@ class ProjectsIndex extends React.Component {
     return(
       <section>
         <section>
+          <hr />
           <div className="columns">
             <div className="filters column">
               <input className="input" placeholder="Search my projects..." onChange={this.handleSearch} />
