@@ -54,6 +54,8 @@ as a Web Developer. I would love to continue my learning development in my next 
             <a href="https://en.wikipedia.org/wiki/HTML5"><i className="fab fa-html5 fa-2x"></i>&nbsp;&nbsp;</a>
             <a href="https://github.com/sayersb"><i className="fab fa-github fa-2x"></i>&nbsp;&nbsp;</a>
             <a href="https://vuejs.org/"><i className="fab fa-vuejs fa-2x"></i></a>
+            <a href="https://www.mongodb.com/"><i className="devicon-mongodb-plain-wordmark"></i>&nbsp;&nbsp;</a>
+            <a href="https://webpack.js.org/"><i className="devicon-webpack-plain"></i>&nbsp;&nbsp;</a>
           </h2>
         </div>
       </div>
