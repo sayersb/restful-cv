@@ -24,7 +24,7 @@ class ProjectsShow extends React.Component {
 
   render() {
     return(
-      <div className="columns">
+      <div className="columns" style={{ marginTop: '10px'}}>
         <div className="column is-half">
           <h2 className="title has-text-centered">{this.state.project.name}</h2>
           <hr />

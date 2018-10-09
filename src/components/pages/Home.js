@@ -5,7 +5,7 @@ const Home = () => {
     <section className="hero is-large has-background-black-ter is-bold">
       <div className="hero-body has-text-white">
         <div className="container">
-          <h1 className="title has-text-centered has-text-white">
+          <h1 className="title has-text-centered has-text-white" style={{ marginTop: '10px'}}>
             <strong>     BRAD(LEY) SAYERS ; </strong>
           </h1>
           <h1 className="title has-text-centered has-text-white">
